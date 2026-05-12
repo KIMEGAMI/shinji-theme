@@ -17,17 +17,21 @@
             </h2>
 
             <p class="hero-text">
-                Linux / WordPress / Laravel / Infrastructure
+               バックエンドエンジニア志望の神田靖雄です。
             </p>
 
         </div>
 
     </section>
 
+
+
+
+
     <!-- About -->
     <section class="about fade">
 
-        <h2>About</h2>
+        <h2 id="about">About</h2>
 
         <p>
             Ubuntu VPS 上で Apache・HTTPS・WordPress を構築し、
@@ -43,7 +47,7 @@
     <!-- Skills -->
 <section class="skills fade">
 
-    <h2>Skills</h2>
+    <h2 id="skills">Skills</h2>
 
     <p class="skill-note">
         ★1 = 約1年の学習・開発経験
@@ -99,7 +103,7 @@
 
         <div class="skill-card">
        <img
-           src="<?php echo get_template_directory_uri(); ?>/assets/images/laravel.png" width="80" height="80"
+           src="<?php echo get_template_directory_uri(); ?>/assets/images/laravel.jpg" width="80" height="80"
           alt="php"
         >
         <h3>Laravel</h3>
@@ -147,10 +151,34 @@
     <!-- Works -->
     <section class="works fade">
 
-        <h2>Works</h2>
+        <h2 id="works">Works</h2>
 
         <div class="works-grid">
+            <div class="work-card">
+                <h3></h3>
 
+                <p>
+        <img
+           src="<?php echo get_template_directory_uri(); ?>/assets/images/git.jpeg" width="100" height="80"
+          alt="php"
+        >     <br>               
+    <a
+        class="github-link"
+        href="https://github.com/KIMEGAMI/shinji-theme"
+        target="_blank"
+    >
+        wordpressテーマ<br>
+
+    </a>
+     <a
+        class="github-link"
+        href="https://github.com/KIMEGAMI/shinji-theme"
+        target="_blank"
+    >
+        広島ライブ情報<br>
+        
+    </a>            </p>
+            </div>
             <div class="work-card">
                 <h3>Ubuntu VPS</h3>
 
@@ -168,20 +196,7 @@
                 </p>
             </div>
 
-            <div class="work-card">
-                <h3>GitHubh</h3>
 
-                <p>
-                    
-    <a
-        class="github-link"
-        href="https://github.com/KIMEGAMI"
-        target="_blank"
-    >
-        View GitHub →
-    </a>
-                </p>
-            </div>
 
         </div>
 

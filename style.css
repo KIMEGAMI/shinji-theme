@@ -62,12 +62,7 @@ main{
 }
 
 section{
-
-    position:relative;
-
-    z-index:10;
-
-    padding:100px 10%;
+    padding:60px 10%;
 }
 
 h2{
@@ -86,53 +81,64 @@ a{
 
 /* Header */
 
+
+
 .site-header{
 
     position:fixed;
 
     top:20px;
 
-    left:50%;
+    left:0;
 
-    transform:translateX(-50%);
+    width:100%;
 
     z-index:999;
-
-    width:90%;
-
-    display:flex;
-
-    justify-content:center;
 }
 
 .header-inner{
 
+    width:90%;
+
+    max-width:1200px;
+
+    margin:auto;
+
     display:flex;
+
+    justify-content:center;
 
     align-items:center;
 
-    justify-content:space-between;
-
-    gap:40px;
-
     padding:15px 30px;
 
-    background:rgba(22,27,34,0.7);
+    background:#ffffff;
 
-    border:1px solid rgba(255,255,255,0.1);
+    border-radius:20px;
 
-    border-radius:50px;
-
-    backdrop-filter:blur(12px);
+    box-shadow:
+        0 0 20px rgba(0,0,0,0.1);
 }
 
 .logo{
-    color:#000;
+
+    color:#000000;
+
+    font-size:24px;
+}
+
+.nav{
+
+    display:flex;
+
+    gap:20px;
 }
 
 .nav a{
 
-    color:#000;
+    color:#000000;
+
+    font-weight:bold;
 
     transition:0.3s;
 }
@@ -141,12 +147,21 @@ a{
 
     color:#58a6ff;
 }
+.site-header .logo{
+
+    color:#000 !important;
+}
+
+.site-header .nav a{
+
+    color:#000 !important;
+}
 
 /* Hero */
 
 .hero{
 
-    height:100vh;
+    min-height:60vh;
 
     display:flex;
 
@@ -155,6 +170,10 @@ a{
     justify-content:center;
 
     text-align:center;
+
+    padding-top:140px;
+
+    padding-bottom:60px;
 }
 
 .hero-title{
@@ -334,4 +353,43 @@ a{
     margin-top:100px;
 
     border-top:1px solid #ddd;
+}
+
+/* ボタン全体 */
+#page_top {
+width: 100px;
+height: 100px;
+position: fixed;
+right: 10px;
+bottom: 10px;
+background: #e25407;
+opacity: 0.6;
+}
+
+/* Font Awesome */
+#page_top::before {
+font-family: 'Font Awesome 5 Free';
+font-weight: 900;
+content: '\f0d8';
+font-size: 50px;
+color: #ffffff;
+position: absolute;
+top: 46%;
+left: 50%;
+translate: -50%;
+
+}
+
+#page_top::after {
+content: 'PAGE TOP';
+font-size: 13px;
+color: #fff;
+position: absolute;
+margin: auto;
+text-align: center;
+width: 100%;
+top: 30%;
+left: 50%;
+translate: -50%;
+
 }
