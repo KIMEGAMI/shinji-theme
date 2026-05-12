@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-
+<canvas id="bg-canvas"></canvas>
 <main>
 
     <!-- Hero -->
