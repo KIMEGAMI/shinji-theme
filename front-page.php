@@ -103,7 +103,7 @@
 
         <div class="skill-card">
        <img
-           src="<?php echo get_template_directory_uri(); ?>/assets/images/laravel.jpg" width="80" height="80"
+           src="<?php echo get_template_directory_uri(); ?>/assets/images/laravel.JPG" width="80" height="80"
           alt="php"
         >
         <h3>Laravel</h3>
@@ -138,7 +138,7 @@
         </div>
         <div class="skill-card">
        <img
-           src="<?php echo get_template_directory_uri(); ?>/assets/images/ai.jpg" width="80" height="80"
+           src="<?php echo get_template_directory_uri(); ?>/assets/images/ai.JPG" width="80" height="80"
           alt="php"
         >
         <h3>AI(バイブコーディング
