@@ -148,6 +148,41 @@
 
 </section>
 
+<!-- Certifications -->
+
+<section class="certifications fade">
+
+    <h2 id="certifications">
+        資格
+    </h2>
+
+    <div class="cert-list">
+        <div class="cert-item">
+             PHP技術者認定初級試験
+        </div>
+         <div class="cert-item">
+             PHP技術者認定準上級試験
+        </div>
+        <div class="cert-item">
+            基本情報技術者試験
+        </div>
+        <div class="cert-item">
+            Linux Professional Institute Certification Level 1
+        </div>
+        <div class="cert-item">
+            ITパスポート
+        </div>
+        <div class="cert-item">
+             Microsoft Office Specialist Excel 365
+        </div>
+        <div class="cert-item">
+            普通自動車第一種運転免許
+        </div>
+
+    </div>
+
+</section>
+
     <!-- Works -->
     <section class="works fade">
 

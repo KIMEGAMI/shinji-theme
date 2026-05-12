@@ -32,9 +32,9 @@
 
             <a href="#skills">SKILLS</a>
 
-            <a href="#works">WORKS</a>
+            <a href="#certifications">資格</a>
 
-            <a href="#contact">CONTACT</a>
+            <a href="#works">WORKS</a>
 
         </nav>
 
