@@ -13,7 +13,7 @@
             </p>
 
             <h2 class="hero-title">
-                Shinji
+                KANDA YASUO
             </h2>
 
             <p class="hero-text">
@@ -52,55 +52,94 @@
     <div class="skill-grid">
 
         <div class="skill-card">
+        <img
+           src="<?php echo get_template_directory_uri(); ?>/assets/images/php.gif"
+          alt="php"
+        >
             <h3>PHP</h3>
             <p>★★★</p>
         </div>
 
         <div class="skill-card">
-            <h3>Linux</h3>
+         <img
+           src="<?php echo get_template_directory_uri(); ?>/assets/images/linux.png"
+          alt="php"
+        >
+        <h3>Linux</h3>
             <p>★★★</p>
         </div>
 
         <div class="skill-card">
-            <h3>Apache</h3>
+        <img
+           src="<?php echo get_template_directory_uri(); ?>/assets/images/sql.png"
+          alt="php"
+        >
+        <h3>SQL</h3>
             <p>★★</p>
         </div>
 
-        <div class="skill-card">
-            <h3>MariaDB</h3>
-            <p>★★</p>
-        </div>
 
         <div class="skill-card">
-            <h3>Git / GitHub</h3>
-            <p>★★</p>
-        </div>
-
-        <div class="skill-card">
-            <h3>WordPress</h3>
-            <p>★★</p>
-        </div>
-
-        <div class="skill-card">
-            <h3>Laravel</h3>
+        <img
+           src="<?php echo get_template_directory_uri(); ?>/assets/images/git.jpeg" width="80" height="80"
+          alt="php"
+        >
+        <h3>Git / GitHub</h3>
             <p>★</p>
         </div>
 
         <div class="skill-card">
-            <h3>C</h3>
-            <p>★★★★</p>
+       <img
+           src="<?php echo get_template_directory_uri(); ?>/assets/images/wp.png" width="80" height="80"
+          alt="php"
+        > 
+        <h3>WordPress</h3>
+            <p>★</p>
         </div>
 
         <div class="skill-card">
-            <h3>C++</h3>
+       <img
+           src="<?php echo get_template_directory_uri(); ?>/assets/images/laravel.png" width="80" height="80"
+          alt="php"
+        >
+        <h3>Laravel</h3>
+            <p>★</p>
+        </div>
+
+        <div class="skill-card">
+       <img
+           src="<?php echo get_template_directory_uri(); ?>/assets/images/c.png" width="80" height="80"
+          alt="php"
+        >
+        <h3>C</h3>
             <p>★★★</p>
         </div>
 
         <div class="skill-card">
-            <h3>Java</h3>
-            <p>★★</p>
+       <img
+           src="<?php echo get_template_directory_uri(); ?>/assets/images/c++.jpg" width="80" height="80"
+          alt="php"
+        >
+        <h3>C++</h3>
+            <p>★★★</p>
         </div>
 
+        <div class="skill-card">
+       <img
+           src="<?php echo get_template_directory_uri(); ?>/assets/images/java.png" width="80" height="80"
+          alt="php"
+        >
+        <h3>Java</h3>
+            <p>★★</p>
+        </div>
+        <div class="skill-card">
+       <img
+           src="<?php echo get_template_directory_uri(); ?>/assets/images/ai.jpg" width="80" height="80"
+          alt="php"
+        >
+        <h3>AI(バイブコーディング
+            <p>★</p>
+        </div>
     </div>
 
 </section>

@@ -1,5 +1,10 @@
-<footer>
-    <p>© Shinji Portfolio</p>
+<footer class="site-footer">
+
+    <p>
+        © <?php echo date('Y'); ?>
+        KANDA YASUO Portfolio
+    </p>
+
 </footer>
 
 <?php wp_footer(); ?>

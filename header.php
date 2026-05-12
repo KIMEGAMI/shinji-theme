@@ -22,7 +22,7 @@
 
         <nav class="nav">
 
-            <a href="/">HOME</a>
+            <a href="https://shinji.work">HOME</a>
 
             <a href="#about">ABOUT</a>
 

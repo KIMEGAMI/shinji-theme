@@ -127,20 +127,12 @@ a{
 }
 
 .logo{
-
-    font-size:20px;
-}
-
-.nav{
-
-    display:flex;
-
-    gap:25px;
+    color:#000;
 }
 
 .nav a{
 
-    color:#fff;
+    color:#000;
 
     transition:0.3s;
 }
@@ -307,4 +299,39 @@ a{
     opacity:1;
 
     transform:translateY(0);
+}
+.header-inner{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    gap:40px;
+
+    padding:15px 30px;
+
+    background:#ffffff;
+
+    border:1px solid #ddd;
+
+    border-radius:50px;
+
+    box-shadow:
+        0 0 20px rgba(0,0,0,0.1);
+}
+.site-footer{
+
+    background:#ffffff;
+
+    color:#000;
+
+    text-align:center;
+
+    padding:30px;
+
+    margin-top:100px;
+
+    border-top:1px solid #ddd;
 }
