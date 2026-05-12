@@ -7,13 +7,10 @@
     <title><?php bloginfo('name'); ?></title>
 
     <?php wp_head(); ?>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-        integrity="sha512-..." crossorigin="anonymous" />
-
+ 
 </head>
 
-<body>
+<body <?php body_class(); ?>>
 
 <a href="#" id="page_top"></a>
 <header class="site-header">

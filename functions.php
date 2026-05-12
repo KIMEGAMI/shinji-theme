@@ -1,10 +1,10 @@
 <?php
 
-function shinji_enqueue_assets(){
+function shinji_theme_scripts(){
 
     wp_enqueue_style(
-        'main-style',
-        get_template_directory_uri() . '/assets/css/style.css'
+        'style',
+        get_stylesheet_uri()
     );
 
     wp_enqueue_script(
@@ -14,7 +14,9 @@ function shinji_enqueue_assets(){
         false,
         true
     );
-
 }
 
-add_action('wp_enqueue_scripts', 'shinji_enqueue_assets');
+add_action(
+    'wp_enqueue_scripts',
+    'shinji_theme_scripts'
+);
