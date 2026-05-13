@@ -16,6 +16,7 @@ function shinji_theme_scripts(){
     );
 }
 
+
 add_action(
     'wp_enqueue_scripts',
     'shinji_theme_scripts'

@@ -17,7 +17,7 @@
             </h2>
 
             <p class="hero-text">
-               バックエンドエンジニア志望の神田靖雄です。
+                バックエンドエンジニア志望の神田靖雄です。
             </p>
 
         </div>
@@ -34,154 +34,173 @@
         <h2 id="about">About</h2>
 
         <p>
-            Ubuntu VPS 上で Apache・HTTPS・WordPress を構築し、
-            GitHub を利用した開発環境を構築しています。
+            バックエンドエンジニアを目指し、
+            PHP・Laravel・Linux を中心に学習しています。
         </p>
-
-        <p>
-            現在は Laravel を使用した広島ライブ情報サイトの開発を進めています。
+        </p>
+        さくらの VPS 上へ Ubuntu Server を構築し、
+        Apache・HTTPS・WordPress 環境を自力で構築しました。
+        </p>
+        </p>
+        現在は Laravel を使用した Web アプリケーション開発、
+        GitHub を利用した開発フローを学習しています。
         </p>
 
     </section>
 
     <!-- Skills -->
-<section class="skills fade">
+    <section class="skills fade">
 
-    <h2 id="skills">Skills</h2>
+        <h2 id="skills">Skills</h2>
 
-    <p class="skill-note">
-        ★1 = 約1年の学習・開発経験
-    </p>
+        <p class="skill-note">
+            ★1 = 約1年の学習・開発経験
+        </p>
 
-    <div class="skill-grid">
+        <div class="skill-grid">
 
-        <div class="skill-card">
-        <img
-           src="<?php echo get_template_directory_uri(); ?>/assets/images/php.gif"
-          alt="php"
-        >
-            <h3>PHP</h3>
-            <p>★★★</p>
+            <div class="skill-card">
+                <img
+                    src="<?php echo get_template_directory_uri(); ?>/assets/images/php.gif"
+                    alt="php">
+                <h3>PHP</h3>
+                <p>★★★</p>
+            </div>
+
+            <div class="skill-card">
+                <img
+                    src="<?php echo get_template_directory_uri(); ?>/assets/images/linux.png"
+                    alt="php">
+                <h3>Linux</h3>
+                <p>★★★</p>
+            </div>
+
+            <div class="skill-card">
+                <img
+                    src="<?php echo get_template_directory_uri(); ?>/assets/images/sql.png"
+                    alt="php">
+                <h3>SQL</h3>
+                <p>★★</p>
+            </div>
+
+
+            <div class="skill-card">
+                <img
+                    src="<?php echo get_template_directory_uri(); ?>/assets/images/git.jpeg" width="80" height="80"
+                    alt="php">
+                <h3>Git / GitHub</h3>
+                <p>★</p>
+            </div>
+
+            <div class="skill-card">
+                <img
+                    src="<?php echo get_template_directory_uri(); ?>/assets/images/wp.png" width="80" height="80"
+                    alt="php">
+                <h3>WordPress</h3>
+                <p>★</p>
+            </div>
+
+            <div class="skill-card">
+                <img
+                    src="<?php echo get_template_directory_uri(); ?>/assets/images/laravel.JPG" width="80" height="80"
+                    alt="php">
+                <h3>Laravel</h3>
+                <p>★</p>
+            </div>
+
+            <div class="skill-card">
+                <img
+                    src="<?php echo get_template_directory_uri(); ?>/assets/images/c.png" width="80" height="80"
+                    alt="php">
+                <h3>C</h3>
+                <p>★★★</p>
+            </div>
+
+            <div class="skill-card">
+                <img
+                    src="<?php echo get_template_directory_uri(); ?>/assets/images/c++.jpg" width="80" height="80"
+                    alt="php">
+                <h3>C++</h3>
+                <p>★★★</p>
+            </div>
+
+            <div class="skill-card">
+                <img
+                    src="<?php echo get_template_directory_uri(); ?>/assets/images/java.png" width="80" height="80"
+                    alt="php">
+                <h3>Java</h3>
+                <p>★★</p>
+            </div>
+
         </div>
 
-        <div class="skill-card">
-         <img
-           src="<?php echo get_template_directory_uri(); ?>/assets/images/linux.png"
-          alt="php"
-        >
-        <h3>Linux</h3>
-            <p>★★★</p>
+    </section>
+<!-- Infrastructure -->
+<section class="infrastructure fade">
+
+    <h2>Infrastructure</h2>
+
+    <div class="infra-list">
+
+        <div class="infra-item">
+            Sakura VPS
         </div>
 
-        <div class="skill-card">
-        <img
-           src="<?php echo get_template_directory_uri(); ?>/assets/images/sql.png"
-          alt="php"
-        >
-        <h3>SQL</h3>
-            <p>★★</p>
+        <div class="infra-item">
+            Ubuntu Server
+        </div>
+
+        <div class="infra-item">
+            Apache
+        </div>
+
+        <div class="infra-item">
+            HTTPS / SSL
+        </div>
+
+        <div class="infra-item">
+            Docker
         </div>
 
 
-        <div class="skill-card">
-        <img
-           src="<?php echo get_template_directory_uri(); ?>/assets/images/git.jpeg" width="80" height="80"
-          alt="php"
-        >
-        <h3>Git / GitHub</h3>
-            <p>★</p>
-        </div>
-
-        <div class="skill-card">
-       <img
-           src="<?php echo get_template_directory_uri(); ?>/assets/images/wp.png" width="80" height="80"
-          alt="php"
-        > 
-        <h3>WordPress</h3>
-            <p>★</p>
-        </div>
-
-        <div class="skill-card">
-       <img
-           src="<?php echo get_template_directory_uri(); ?>/assets/images/laravel.JPG" width="80" height="80"
-          alt="php"
-        >
-        <h3>Laravel</h3>
-            <p>★</p>
-        </div>
-
-        <div class="skill-card">
-       <img
-           src="<?php echo get_template_directory_uri(); ?>/assets/images/c.png" width="80" height="80"
-          alt="php"
-        >
-        <h3>C</h3>
-            <p>★★★</p>
-        </div>
-
-        <div class="skill-card">
-       <img
-           src="<?php echo get_template_directory_uri(); ?>/assets/images/c++.jpg" width="80" height="80"
-          alt="php"
-        >
-        <h3>C++</h3>
-            <p>★★★</p>
-        </div>
-
-        <div class="skill-card">
-       <img
-           src="<?php echo get_template_directory_uri(); ?>/assets/images/java.png" width="80" height="80"
-          alt="php"
-        >
-        <h3>Java</h3>
-            <p>★★</p>
-        </div>
-        <div class="skill-card">
-       <img
-           src="<?php echo get_template_directory_uri(); ?>/assets/images/ai.JPG" width="80" height="80"
-          alt="php"
-        >
-        <h3>AI(バイブコーディング
-            <p>★</p>
-        </div>
     </div>
 
 </section>
 
-<!-- Certifications -->
+    <!-- Certifications -->
 
-<section class="certifications fade">
+    <section class="certifications fade">
 
-    <h2 id="certifications">
-        資格
-    </h2>
+        <h2 id="certifications">
+            資格
+        </h2>
 
-    <div class="cert-list">
-        <div class="cert-item">
-             PHP技術者認定初級試験
-        </div>
-         <div class="cert-item">
-             PHP技術者認定準上級試験
-        </div>
-        <div class="cert-item">
-            基本情報技術者試験
-        </div>
-        <div class="cert-item">
-            Linux Professional Institute Certification Level 1
-        </div>
-        <div class="cert-item">
-            ITパスポート
-        </div>
-        <div class="cert-item">
-             Microsoft Office Specialist Excel 365
-        </div>
-        <div class="cert-item">
-            普通自動車第一種運転免許
+        <div class="cert-list">
+            <div class="cert-item">
+                PHP8技術者認定初級試験
+            </div>
+            <div class="cert-item">
+                PHP8技術者認定準上級試験
+            </div>
+            <div class="cert-item">
+                基本情報技術者試験
+            </div>
+            <div class="cert-item">
+                Linux Professional Institute Certification Level 1
+            </div>
+            <div class="cert-item">
+                ITパスポート
+            </div>
+            <div class="cert-item">
+                Microsoft Office Specialist Excel 365
+            </div>
+            <div class="cert-item">
+                普通自動車第一種運転免許
+            </div>
+
         </div>
 
-    </div>
-
-</section>
+    </section>
 
     <!-- Works -->
     <section class="works fade">
@@ -193,26 +212,24 @@
                 <h3></h3>
 
                 <p>
-        <img
-           src="<?php echo get_template_directory_uri(); ?>/assets/images/git.jpeg" width="100" height="80"
-          alt="php"
-        >     <br>               
-    <a
-        class="github-link"
-        href="https://github.com/KIMEGAMI/shinji-theme"
-        target="_blank"
-    >
-        wordpressテーマ<br>
+                    <img
+                        src="<?php echo get_template_directory_uri(); ?>/assets/images/git.jpeg" width="100" height="80"
+                        alt="php"> <br>
+                    <a
+                        class="github-link"
+                        href="https://github.com/KIMEGAMI/shinji-theme"
+                        target="_blank">
+                        wordpressテーマ<br>
 
-    </a>
-     <a
-        class="github-link"
-        href="https://github.com/KIMEGAMI/shinji-theme"
-        target="_blank"
-    >
-        広島ライブ情報<br>
-        
-    </a>            </p>
+                    </a>
+                    <a
+                        class="github-link"
+                        href="https://github.com/KIMEGAMI/shinji-theme"
+                        target="_blank">
+                        広島ライブ情報<br>
+
+                    </a>
+                </p>
             </div>
             <div class="work-card">
                 <h3>Ubuntu VPS</h3>
@@ -247,24 +264,26 @@
             'posts_per_page' => 5
         ));
 
-        if($query->have_posts()):
-            while($query->have_posts()):
+        if ($query->have_posts()):
+            while ($query->have_posts()):
                 $query->the_post();
         ?>
 
-        <div class="update-item">
+                <div class="update-item">
 
-            <span class="update-date">
-                <?php the_time('Y.m.d'); ?>
-            </span>
+                    <span class="update-date">
+                        <?php the_time('Y.m.d'); ?>
+                    </span>
 
-            <a href="<?php the_permalink(); ?>">
-                <?php the_title(); ?>
-            </a>
+                    <a href="<?php the_permalink(); ?>">
+                        <?php the_title(); ?>
+                    </a>
 
-        </div>
+                </div>
 
-        <?php endwhile; endif; wp_reset_postdata(); ?>
+        <?php endwhile;
+        endif;
+        wp_reset_postdata(); ?>
 
     </section>
 
