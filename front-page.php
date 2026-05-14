@@ -183,9 +183,6 @@
                 PHP8技術者認定準上級試験
             </div>
             <div class="cert-item">
-                基本情報技術者試験
-            </div>
-            <div class="cert-item">
                 Linux Professional Institute Certification Level 1
             </div>
             <div class="cert-item">
