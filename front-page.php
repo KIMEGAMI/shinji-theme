@@ -216,24 +216,40 @@
                         class="github-link"
                         href="https://github.com/KIMEGAMI/shinji-theme"
                         target="_blank">
-                        wordpressテーマ<br>
+                        wordpressテーマソースコード<br>
 
                     </a>
                     <a
                         class="github-link"
-                        href="https://github.com/KIMEGAMI/shinji-theme"
+                        href="https://github.com/KIMEGAMI/hiroshima-live"
                         target="_blank">
-                        広島ライブ情報<br>
+                        広島ライブ情報ソースコード<br>
 
                     </a>
                 </p>
             </div>
             <div class="work-card">
-                <h3>Ubuntu VPS</h3>
+<img
+                        src="<?php echo get_template_directory_uri(); ?>/assets/images/hiroshima.png" width="200" height="150"
+                        alt="php"> <br>
+                    <a
+                        class="github-link"
+                        href="https://github.com/KIMEGAMI/shinji-theme"
+                        target="_blank">
+                        wordpressテーマソースコード<br>
 
-                <p>
-                    さくら VPS 上へ Ubuntu を構築し、
-                    Apache・HTTPS 化を実装。
+                    </a>
+
+
+                <h3>広島ライブ情報システム</h3>
+
+                <p><a href="https://docs.google.com/spreadsheets/d/1X8oTzFouRIzib0xXzmJlbD2OT54AZsAhuDVwZ35Fy7E/edit?usp=sharing">■要件定義</a>     
+                  <p><a href="https://drive.google.com/file/d/1LqaL1AV05AUBGzQTFd_s-KQWMwM-iM-u/view?usp=sharing">■画面一覧</a>     
+                       
+                </p>
+
+                <p><a href="https://drive.google.com/file/d/1x-cxE0zmhM1-foj5GIlx0bHlfO2tdImF/view?usp=sharing">■ER図</a>     
+                       
                 </p>
             </div>
 
