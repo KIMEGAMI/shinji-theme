@@ -229,14 +229,15 @@
                 </p>
             </div>
             <div class="work-card">
+                <a href="https://hiroshima-live.shinji.work/"
+                        target="_blank">
+                        
 <img
                         src="<?php echo get_template_directory_uri(); ?>/assets/images/hiroshima.png" width="200" height="150"
                         alt="php"> <br>
-                    <a
-                        class="github-link"
-                        href="https://github.com/KIMEGAMI/shinji-theme"
-                        target="_blank">
-                        wordpressテーマソースコード<br>
+                    
+                        
+                        
 
                     </a>
 
