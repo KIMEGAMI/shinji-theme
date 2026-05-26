@@ -255,10 +255,27 @@
             </div>
 
             <div class="work-card">
-                <h3>WordPress Theme</h3>
+                                <a href="https://furugi.shinji.work/"
+                        target="_blank">
+                        
+<img
+                        src="<?php echo get_template_directory_uri(); ?>/assets/images/furugi.png" width="200" height="150"
+                        alt="php"> <br>
+                    
+                        
+                        
 
-                <p>
-                    オリジナル WordPress テーマを自作。
+                    </a>
+
+                 <h3>古着管理システム</h3>
+
+                <p><a href="https://docs.google.com/spreadsheets/d/1X8oTzFouRIzib0xXzmJlbD2OT54AZsAhuDVwZ35Fy7E/edit?usp=sharing">■要件定義</a>     
+                  <p><a href="https://drive.google.com/file/d/1LqaL1AV05AUBGzQTFd_s-KQWMwM-iM-u/view?usp=sharing">■画面一覧</a>     
+                       
+                </p>
+
+                <p><a href="https://drive.google.com/file/d/1x-cxE0zmhM1-foj5GIlx0bHlfO2tdImF/view?usp=sharing">■ER図</a>     
+                       
                 </p>
             </div>
 
