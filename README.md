@@ -40,11 +40,10 @@ https://shinji.work
 
 ## Infrastructure
 
-- Ubuntu / Debian
+- Ubuntu 
 - Apache
 - MySQL / MariaDB
 - GitHub
-- Let's Encrypt
 
 ---
 
