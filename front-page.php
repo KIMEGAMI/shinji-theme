@@ -226,6 +226,13 @@
                         広島ライブ情報ソースコード<br>
 
                     </a>
+                    <a
+                        class="github-link"
+                        href="https://github.com/KIMEGAMI/furugi"
+                        target="_blank">
+                        古着管理システムソースコード<br>
+
+                    </a>
                 </p>
             </div>
             <div class="work-card">
