@@ -23,10 +23,6 @@ WordPress用の自作ポートフォリオテーマです。
 
 https://shinji.work
 
-GitHub：
-
-https://github.com/（GitHub URL）
-
 ---
 
 # 使用技術
