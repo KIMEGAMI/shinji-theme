@@ -252,12 +252,18 @@
                 <h3>広島ライブ情報システム</h3>
 
                 <p><a href="https://docs.google.com/spreadsheets/d/1X8oTzFouRIzib0xXzmJlbD2OT54AZsAhuDVwZ35Fy7E/edit?usp=sharing">■要件定義</a>     
-                  <p><a href="https://drive.google.com/file/d/1LqaL1AV05AUBGzQTFd_s-KQWMwM-iM-u/view?usp=sharing">■画面一覧</a>     
+                  
                        
                 </p>
 
                 <p><a href="https://drive.google.com/file/d/1x-cxE0zmhM1-foj5GIlx0bHlfO2tdImF/view?usp=sharing">■ER図</a>     
                        
+                </p>
+                <p>
+                    PHP8.4<br>
+                    Laravel13<br>
+                    MySQL<br>
+                    Vue.js<br>
                 </p>
             </div>
 
@@ -277,12 +283,15 @@
                  <h3>古着管理システム</h3>
 
                 <p><a href="https://docs.google.com/spreadsheets/d/1X8oTzFouRIzib0xXzmJlbD2OT54AZsAhuDVwZ35Fy7E/edit?usp=sharing">■要件定義</a>     
-                  <p><a href="https://drive.google.com/file/d/1LqaL1AV05AUBGzQTFd_s-KQWMwM-iM-u/view?usp=sharing">■画面一覧</a>     
-                       
-                </p>
 
                 <p><a href="https://drive.google.com/file/d/1x-cxE0zmhM1-foj5GIlx0bHlfO2tdImF/view?usp=sharing">■ER図</a>     
-                       
+
+                                <p>
+                    PHP8.4<br>
+                    Laravel13<br>
+                    MySQL<br>
+                    
+                </p>
                 </p>
             </div>
 
@@ -298,13 +307,13 @@
         <h2>Update History</h2>
 
         <?php
-        $query = new WP_Query(array(
-            'posts_per_page' => 5
-        ));
+        $query = new WP_Query([
+            'posts_per_page' => 5,
+        ]);
 
-        if ($query->have_posts()):
-            while ($query->have_posts()):
-                $query->the_post();
+if ($query->have_posts()) {
+    while ($query->have_posts()) {
+        $query->the_post();
         ?>
 
                 <div class="update-item">
@@ -319,9 +328,9 @@
 
                 </div>
 
-        <?php endwhile;
-        endif;
-        wp_reset_postdata(); ?>
+        <?php }
+    }
+wp_reset_postdata(); ?>
 
     </section>
 

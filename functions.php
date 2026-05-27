@@ -1,6 +1,7 @@
 <?php
 
-function shinji_theme_scripts(){
+function shinji_theme_scripts()
+{
 
     wp_enqueue_style(
         'style',
@@ -9,13 +10,12 @@ function shinji_theme_scripts(){
 
     wp_enqueue_script(
         'main-js',
-        get_template_directory_uri() . '/assets/js/main.js',
-        array(),
+        get_template_directory_uri().'/assets/js/main.js',
+        [],
         false,
         true
     );
 }
-
 
 add_action(
     'wp_enqueue_scripts',

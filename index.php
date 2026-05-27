@@ -3,8 +3,9 @@
 <main>
     <h2>Shinji Portfolio</h2>
 
-    <?php if(have_posts()): ?>
-        <?php while(have_posts()): the_post(); ?>
+    <?php if (have_posts()) { ?>
+        <?php while (have_posts()) {
+            the_post(); ?>
 
             <article>
                 <h3><?php the_title(); ?></h3>
@@ -12,8 +13,8 @@
                 <?php the_content(); ?>
             </article>
 
-        <?php endwhile; ?>
-    <?php endif; ?>
+        <?php } ?>
+    <?php } ?>
 </main>
 
 <?php get_footer(); ?>
